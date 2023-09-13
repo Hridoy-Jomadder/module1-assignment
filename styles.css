@@ -1,0 +1,32 @@
+body{
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+.container{
+    margin: 50px;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    background-color: aquamarine;
+}
+input[type="number"], select{
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#result{
+    margin-top: 20px;
+    font-size: 18px;
+}
